@@ -1,95 +1,113 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.space-around{
+.space-around {
     justify-content: space-around;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
-.mt-32{
+.mt-32 {
     margin-top: 32px;
 }
 
-.pt-32{
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.pt-32 {
     padding-top: 32px;
 }
 
-.pt-128{
+.pt-128 {
     padding-top: 128px;
 }
 
-.pb-32{
+.pb-32 {
     padding-bottom: 32px;
 }
 
-.p32{
+.p32 {
     padding: 32px;
 }
 
-.pr-32{
+.pr-32 {
     padding-right: 32px;
 }
 
-.pl-32{
+.pr-128 {
+    padding-right: 128px;
+}
+
+.pl-32 {
     padding-left: 32px;
 }
 
-.decoration-none{
+.pl-260 {
+    padding-left: 260px;
+}
+
+.decoration-none {
     text-decoration: none;
 }
 
-.black{
+.black {
     color: black;
 }
 
-.white{
+.white {
     color: white;
 }
 
-.hero{
+.hero {
     background-image: url(assets/bg-image-hero.webp);
     background-position: 50%;
 }
 
-.size-16{
+.size-16 {
     font-size: 16px;
 }
 
-.size-36{
+.size-36 {
     font-size: 36px;
 }
 
-.w30{
+.w30 {
     width: 30%;
 }
 
-.hero-height{
+.hero-height {
     height: 578px;
 }
 
-.bold{
+.bold {
     font-weight: 800;
 }
 
-.text-center{
+.text-center {
     text-align: center;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
